@@ -1,6 +1,7 @@
-﻿using System.Net.Sockets;
+﻿using System.Net;
+using System.Net.Sockets;
  
-string host = "127.0.0.1";
+IPAddress host = IPAddress.Loopback;
 int port = 8888;
 using TcpClient client = new TcpClient();
 StreamReader? reader = null;
@@ -39,25 +40,11 @@ async Task ReceiveMessageAsync(StreamReader streamReader)
         {
             string? message = await streamReader.ReadLineAsync();
             if (string.IsNullOrEmpty(message)) continue;
-            Print(message);
+            Console.WriteLine("Клиент получил " + DateTime.Now + ": " + message);
         }
         catch
         {
             break;
         }
     }
-}
-void Print(string message)
-{
-    if (OperatingSystem.IsWindows())
-    {
-        var position = Console.GetCursorPosition();
-        int left = position.Left;
-        int top = position.Top;
-        Console.MoveBufferArea(0, top, left, 1, 0, top + 1);
-        Console.SetCursorPosition(0, top);
-        Console.WriteLine("Клиент получил " + DateTime.Now + ": " + message);
-        Console.SetCursorPosition(left, top + 1);
-    }
-    else Console.WriteLine("Клиент получил " + DateTime.Now + ": " + message);
 }
