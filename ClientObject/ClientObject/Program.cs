@@ -38,7 +38,7 @@ async Task ReceiveMessageAsync(StreamReader streamReader)
         try
         {
             string? message = await streamReader.ReadLineAsync();
-            if (string.IsNullOrEmpty(message)) continue; 
+            if (string.IsNullOrEmpty(message)) continue;
             Print(message);
         }
         catch
@@ -56,8 +56,8 @@ void Print(string message)
         int top = position.Top;
         Console.MoveBufferArea(0, top, left, 1, 0, top + 1);
         Console.SetCursorPosition(0, top);
-        Console.WriteLine(message);
+        Console.WriteLine("Клиент получил " + DateTime.Now + ": " + message);
         Console.SetCursorPosition(left, top + 1);
     }
-    else Console.WriteLine(message);
+    else Console.WriteLine("Клиент получил " + DateTime.Now + ": " + message);
 }
