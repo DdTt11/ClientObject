@@ -1,0 +1,15 @@
+C:\Users\пк\RiderProjects\ClientObject\ClientObject\bin\Debug\net6.0\ClientObject.exe
+C:\Users\пк\RiderProjects\ClientObject\ClientObject\bin\Debug\net6.0\ClientObject.deps.json
+C:\Users\пк\RiderProjects\ClientObject\ClientObject\bin\Debug\net6.0\ClientObject.runtimeconfig.json
+C:\Users\пк\RiderProjects\ClientObject\ClientObject\bin\Debug\net6.0\ClientObject.dll
+C:\Users\пк\RiderProjects\ClientObject\ClientObject\bin\Debug\net6.0\ClientObject.pdb
+C:\Users\пк\RiderProjects\ClientObject\ClientObject\obj\Debug\net6.0\ClientObject.csproj.AssemblyReference.cache
+C:\Users\пк\RiderProjects\ClientObject\ClientObject\obj\Debug\net6.0\ClientObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\пк\RiderProjects\ClientObject\ClientObject\obj\Debug\net6.0\ClientObject.AssemblyInfoInputs.cache
+C:\Users\пк\RiderProjects\ClientObject\ClientObject\obj\Debug\net6.0\ClientObject.AssemblyInfo.cs
+C:\Users\пк\RiderProjects\ClientObject\ClientObject\obj\Debug\net6.0\ClientObject.csproj.CoreCompileInputs.cache
+C:\Users\пк\RiderProjects\ClientObject\ClientObject\obj\Debug\net6.0\ClientObject.dll
+C:\Users\пк\RiderProjects\ClientObject\ClientObject\obj\Debug\net6.0\refint\ClientObject.dll
+C:\Users\пк\RiderProjects\ClientObject\ClientObject\obj\Debug\net6.0\ClientObject.pdb
+C:\Users\пк\RiderProjects\ClientObject\ClientObject\obj\Debug\net6.0\ClientObject.genruntimeconfig.cache
+C:\Users\пк\RiderProjects\ClientObject\ClientObject\obj\Debug\net6.0\ref\ClientObject.dll
